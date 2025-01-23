@@ -117,39 +117,36 @@ function about() {
 
         {/* Exco Members Section */}
         <section className="py-16 w-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-fix rounded-xl shadow-lg">
-          <h1 className="text-3xl md:text-4xl font-bold mb-12 text-white text-center">
-            Exco Members
-          </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
-            {excoMembers.map((member, index) => (
-              <div
-                key={index}
-                className="bg-white/20 backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105"
-              >
-                <Image
-                  src={member.image}
-                  alt={member.name}
-                  width={200}
-                  height={200}
-                  className="w-52 h-52 rounded-full mx-auto mb-4 object-cover"
-                />
-                <h3 className="text-xl font-semibold text-white">
-                  {member.name}
-                </h3>
-                <p className="text-sm text-gray-300 mb-4">{member.position}</p>
-                <p className="text-lg text-gray-100">
-                  {showMore[index]
-                    ? member.extendedMessage
-                    : member.message}
-                </p>
-                <ReadMoreButton
-                  isExpanded={showMore[index]}
-                  onClick={() => handleToggle(index)}
-                />
-              </div>
-            ))}
-          </div>
-        </section>
+  <h1 className="text-3xl md:text-4xl font-bold mb-12 text-white text-center">
+    Exco Members
+  </h1>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-6xl mx-auto">
+    {excoMembers.map((member, index) => (
+      <div
+        key={index}
+        className="bg-[rgba(255,255,255,0.2)] backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105"
+      >
+        <Image
+          src={member.image}
+          alt={member.name}
+          width={200}
+          height={200}
+          className="w-52 h-52 rounded-full mx-auto mb-4 object-cover"
+        />
+        <h3 className="text-xl font-semibold text-white">{member.name}</h3>
+        <p className="text-sm text-gray-300 mb-4">{member.position}</p>
+        <p className="text-lg text-gray-100">
+          {showMore[index] ? member.extendedMessage : member.message}
+        </p>
+        <ReadMoreButton
+          isExpanded={showMore[index]}
+          onClick={() => handleToggle(index)}
+        />
+      </div>
+    ))}
+  </div>
+</section>
+
       </div>
     </div>
   )
