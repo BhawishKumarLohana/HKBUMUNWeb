@@ -114,7 +114,7 @@ to be an extraordinary gathering of minds and ideas
         <Card  title="Committees"  buttonColor="bg-yellow-600" 
              buttonText="Committee List" 
             description="Explore the various committees of the HKBUMUN, where future global leaders are developed through collaboration and discourse."
-            imageUrl="/2.jpg"
+            imageUrl="/2.JPG"
             buttonHref="/committees"
              />
          
