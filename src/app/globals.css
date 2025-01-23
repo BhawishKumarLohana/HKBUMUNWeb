@@ -1,10 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@supports (-webkit-touch-callout: none) {
-    .backdrop-blur-fix {
-      -webkit-backdrop-filter: blur(16px); /* Safari */
-      backdrop-filter: blur(16px);
-    }
-  }
-  
