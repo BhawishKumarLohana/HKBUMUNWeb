@@ -116,7 +116,7 @@ function about() {
         </section>
 
         {/* Exco Members Section */}
-        <section className="py-16 w-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-fix rounded-xl shadow-lg"   style={{ WebkitBackdropFilter: "blur(5px)", backdropFilter: "blur(5px)" }}>
+        <section className="py-16 w-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-fix rounded-xl shadow-lg">
   <h1 className="text-3xl md:text-4xl font-bold mb-12 text-white text-center">
     Exco Members
   </h1>
@@ -124,7 +124,7 @@ function about() {
     {excoMembers.map((member, index) => (
       <div
         key={index}
-        className="bg-[rgba(255,255,255,0.2)] backdrop-blur-md p-6 rounded-xl shadow-lg hover:shadow-xl transition-transform hover:scale-105"
+        className="bg-white/20 backdrop-blur-md p-8 rounded-xl shadow-lg w-100 transition-transform hover:scale-105"
       >
         <Image
           src={member.image}
