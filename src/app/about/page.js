@@ -100,7 +100,7 @@ function about() {
             {[
               { label: "Conferences Organized", counter:"1"},
               { label: "Exco Members", counter:"16" },
-              { label: "Students Impacted", counter:"26" },
+              { label: "Students Impacted", counter:"200" },
             ].map((item, index) => (
               <div
                 key={index}
@@ -116,7 +116,7 @@ function about() {
         </section>
 
         {/* Exco Members Section */}
-        <section className="py-16 w-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-lg rounded-xl shadow-lg">
+        <section className="py-16 w-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-fix rounded-xl shadow-lg">
           <h1 className="text-3xl md:text-4xl font-bold mb-12 text-white text-center">
             Exco Members
           </h1>
