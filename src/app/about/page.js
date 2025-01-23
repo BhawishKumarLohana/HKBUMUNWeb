@@ -116,7 +116,7 @@ function about() {
         </section>
 
         {/* Exco Members Section */}
-        <section className="py-16 w-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-fix rounded-xl shadow-lg">
+        <section className="py-16 w-full bg-gradient-to-tr from-white/10 to-white/5 backdrop-blur-fix rounded-xl shadow-lg"   style={{ WebkitBackdropFilter: "blur(5px)", backdropFilter: "blur(5px)" }}>
   <h1 className="text-3xl md:text-4xl font-bold mb-12 text-white text-center">
     Exco Members
   </h1>
