@@ -1,101 +1,143 @@
+"use client"
 import Image from "next/image";
+import Hero from "@/components/Hero";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Card from "@/components/Card"
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+    }, []);
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    return (
+        <div>
+            <Hero />
+{/* Letter from the Secretary-General */}
+
+<section className="py-0 flex justify-center">
+    <div className="bg-gradient-to-br from-[#063363] to-[#f9e243] py-8 w-full flex justify-center">
+        <div className="max-w-[calc(100%-50px)] md:max-w-5xl w-full bg-white bg-opacity-80 border border-gray-300 shadow-lg rounded-lg px-8 md:px-12 py-12 backdrop-blur-md">
+            <h2
+                className="text-4xl md:text-5xl font-serif text-gray-900 mb-8 text-center"
+                data-aos="fade-right"
+            >
+                Letter from the Secretary-General
+            </h2>
+            <div className="text-left text-lg md:text-xl text-gray-800 leading-relaxed font-serif space-y-6" data-aos="fade-up">
+                <p>
+                    <strong>Dearest Delegates and Faculty Advisors,</strong>
+                </p>
+                <p>
+                It is an honor and a privilege that I get to welcome you all to the  
+                    <em>Second edition ofHong Kong
+                    Baptist University International Model United Nations</em> 
+                    11th to 13th of April, 2025 in Hong Kong, SAR China.
+                </p>
+                <p>
+                My name is Clothilde Mazurier, a second-year student at Hong Kong Baptist University and
+Sciences Po Bordeaux enrolled in a double degree program in Global and China Studies. I am
+delighted to serve as your Secretary-General for the upcoming iteration of our conference. My
+MUN journey has been transformative, spanning roles from delegate, chair, to conference
+organizer. In 2024, I served as Under-Secretary-General for Academics at the inaugural France
+Model United Nations, a milestone that deepened my belief in the power of academic discourse
+to inspire change. My tenure in Asia, including chairing in Indonesia, Thailand, and Malaysia,
+and participating in Asia Youth International Model United Nations, gifted me with a
+community of like-minded individuals united by the passion for diplomacy. These experiences
+taught me invaluable lessons in leadership, cross-cultural understanding, and negotiation, with
+MUN transcending formal debate to become a confluence of diverse minds. Beyond MUN, I
+am honored to undertake the position of Secretary-General of the European Civic Service, a
+platform dedicated in fostering professional opportunities for young adults across Europe. Co-
+organizing the Paris Youth International Forum in May 2024, with over 300 global participants,
+ambassadors, and professors, underscored the vital role youth must play in shaping solutions
+for the challenges of our time
+                </p>
+                <p>
+                HKBUMUN 2025 stands as a beacon of inclusivity and opportunity, being the first international
+MUN conference in Hong Kong open to both university and high school students. HKBUMUN
+exemplifies this spirit of unity, offering participants the opportunity to join a truly
+interconnected community driven by a collective pursuit of solutions to global challenges. This
+initiative is a testament to the importance of uniting young minds and empowering them to
+engage with the pressing global matters of our era. Since its revival following the disruptions
+of the COVID-19 pandemic, HKBUMUN has embarked on a remarkable journey, evolving
+into a vibrant community that organizes diverse events in collaboration with multiple
+organisations and celebrates the perspectives of individuals from all walks of life. This growth
+reflects the resilience, creativity, and determination of the youth committed to making an
+indelible impact on the world stage. There are a multitude of challenges that face our world
+today, and, as rising leaders in this ever tumultuous world, it is the mission of HKBUMUN to
+help prepare our delegates with the skills that they need to succeed, from public speaking and
+substantive research to leadership and diplomacy. In each delegate’s preparation for and
+participation in the conference, they will learn how to work with others to problem solve and
+develop solutions for the world’s most pressing and complicated problems.
+                </p>
+                <p>
+                This year’s conference, under the theme Unity in Action: Forging Tomorrow’s Solutions
+Through International Cooperation, promises to be a unique and exhilarating experience. It
+will be marked by academic excellence, spirited collaboration, and a commitment to fostering
+global unity. As we embark on this journey together, I am confident that HKBUMUN 2025
+will leave a lasting legacy for all who take part.
+                </p>
+                <p>
+                Should you have any inquiries or require further information, please do not hesitate to reach
+out to us at hkbumunclub@gmail.com. I eagerly anticipate welcoming you to what promises
+to be an extraordinary gathering of minds and ideas
+                    to <a href="mailto:hkbumunclub@gmail.com" className="text-blue-600 hover:underline">hkbumunclub@gmail.com</a> 
+                    I eagerly anticipate welcoming you to what promises
+to be an extraordinary gathering of minds and ideas
+                </p>
+                <p>
+                
+                </p>
+                <p className="font-semibold text-gray-900">
+                With the Warmest Gratitude, <br />
+                Clothilde Jeanne Mazurier <br />
+                    <span className="text-blue-600">Secretary-General</span>
+                </p>
+            </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
-  );
+</section>
+
+ {/* Cards*/}
+<div className="bg-gradient-to-br from-[#063363] to-[#f9e243] py-8">
+    <div className="max-w-[calc(100%-50px)] mx-6 grid gap-6">
+        {/* About Us Card */}
+        <Card  title="About Us"  buttonColor="bg-blue-600" 
+             buttonText="Learn More" 
+            description="Delve into the rich history of the HKBUMUN and meet the passionate individuals who drive its mission and activities."
+            imageUrl="/1.jpg" 
+            buttonHref="/about"
+           />
+       
+        {/* Committees Card */}
+        <Card  title="Committees"  buttonColor="bg-yellow-600" 
+             buttonText="Committee List" 
+            description="Explore the various committees of the HKBUMUN, where future global leaders are developed through collaboration and discourse."
+            imageUrl="/2.jpg"
+            buttonHref="/committees"
+             />
+         
+         {/* Resources Card */}
+         <Card  title="Resources"  buttonColor="bg-green-600" 
+             buttonText="Explore Resources" 
+            description="Unlock your potential with resources crafted by the Direction of Academics—designed to make you the best delegate possible, empowering you with the knowledge and skills for success in MUNs." 
+            imageUrl="4.jpg"
+            buttonHref="/resources"
+            
+            />
+    
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+        </div>
+    );
 }

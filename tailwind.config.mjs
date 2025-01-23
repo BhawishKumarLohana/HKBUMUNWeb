@@ -8,10 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'light-blue': '#3a8eea', // Your dark blue color
+        'gold': '#f5b041', // Your gold color
       },
     },
   },
   plugins: [],
 };
+
