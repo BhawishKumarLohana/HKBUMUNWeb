@@ -34,7 +34,7 @@ function page() {
     <div>
       <div className="relative w-full min-h-screen bg-gradient-to-br from-[#063363] to-[#f9e243] flex flex-col items-center p-8 space-y-12">
         {/* Page Title */}
-        <h1 className="text-4xl md:text-5xl font-bold text-white text-center">
+        <h1 className="text-4xl md:text-5xl font-bold text-white text-center mt-20">
           Explore Our Resources
         </h1>
 
