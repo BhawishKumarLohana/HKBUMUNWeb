@@ -32,7 +32,7 @@ export default function Home() {
                 </p>
                 <p>
                 It is an honor and a privilege that I get to welcome you all to the  
-                    <em>Second edition ofHong Kong
+                    <em> Second edition of Hong Kong
                     Baptist University International Model United Nations</em> 
                     11th to 13th of April, 2025 in Hong Kong, SAR China.
                 </p>
