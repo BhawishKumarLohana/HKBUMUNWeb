@@ -8,36 +8,56 @@ function Navbar() {
             {/* Navbar */}
             <nav
                 style={{ backgroundColor: "#063363", color: "#f9e243" }}
-                className="fixed w-full top-0 left-0 z-50 flex justify-between items-center p-6"
+                className="fixed w-full top-0 left-0 z-50 flex justify-between items-center p-3"
             >
-                <div className="flex items-center">
-                    <img src="/logo.jpeg" alt="Logo" className="h-14 mr-1" />
-                    <a
+                <div className="flex items-center space-x-2">
+                    <img src="/logo.jpeg" alt="Logo" className="h-14" />
+                    <div className="flex flex-col">
+                        <a
                         href="/"
-                        style={{ color: "#f9e243" }}
                         className="hover:text-[#ffffff] transition-colors duration-300 text-2xl font-bold"
-                    >
+                        style={{
+                            color: "#f9e243",
+                            fontFamily: '"Playfair Display", serif',
+                        }}
+                        >
                         HKBUMUN
-                    </a>
+                        </a>
+                        <span
+                        className="text-sm italic tracking-wide"
+                        style={{
+                            color: "#d1d5db", // light gray for a subtle effect
+                            fontFamily: '"Playfair Display", serif',
+                        }}
+                        >
+                        Together We Go
+                        </span>
+                    </div>
                 </div>
+
+            
                 <div className="hidden lg:flex flex-grow justify-end space-x-8">
                 <a
                         href="/committees"
-                        style={{ color: "#f9e243" }}
+                        style={{ color: "#f9e243",
+                         }}
                         className="hover:text-[#ffffff] transition-colors duration-300 text-xl font-bold"
                     >
                         Committees
                     </a>
                 <a
                         href="/about"
-                        style={{ color: "#f9e243" }}
+                        style={{ color: "#f9e243",
+                         }}
                         className="hover:text-[#ffffff] transition-colors duration-300 text-xl font-bold"
                     >
                         About
                     </a>
                     <a
                         href="/resources"
-                        style={{ color: "#f9e243" }}
+                        style={{ color: "#f9e243",
+                                
+                         }}
                         className="hover:text-[#ffffff] transition-colors duration-300 text-xl font-bold"
                     >
                         Resources

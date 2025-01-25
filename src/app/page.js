@@ -22,6 +22,7 @@ export default function Home() {
             <h2
                 className="text-4xl md:text-5xl font-serif text-gray-900 mb-8 text-center"
                 data-aos="fade-right"
+                style={{ fontFamily: '"Merriweather", serif' }}
             >
                 Letter from the Secretary-General
             </h2>
@@ -113,7 +114,7 @@ to be an extraordinary gathering of minds and ideas
         {/* Committees Card */}
         <Card  title="Committees"  buttonColor="bg-yellow-600" 
              buttonText="Committee List" 
-            description="Explore the various committees of the HKBUMUN, where future global leaders are developed through collaboration and discourse."
+            description="Discover HKBUMUN committees, fostering future global leaders through collaboration and dialogue."
             imageUrl="/2.JPG"
             buttonHref="/committees"
              />
@@ -121,7 +122,7 @@ to be an extraordinary gathering of minds and ideas
          {/* Resources Card */}
          <Card  title="Resources"  buttonColor="bg-green-600" 
              buttonText="Explore Resources" 
-            description="Unlock your potential with resources crafted by the Direction of Academics—designed to make you the best delegate possible, empowering you with the knowledge and skills for success in MUNs." 
+            description="Unlock your potential with resources from the Direction of Academics, designed to equip you with the skills and knowledge for becoming the best delegate." 
             imageUrl="4.jpg"
             buttonHref="/resources"
             

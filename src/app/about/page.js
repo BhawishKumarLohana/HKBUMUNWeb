@@ -25,20 +25,20 @@ const excoMembers = [
     name: 'Talilah Mimoun',
     position: 'Deputy Secretary General',
     message: 'I chose 3 pillars for my life: eat, travel and sleep',
-    extendedMessage: 'Hi! My name is Talilah and I am the internal president of the club :) I am a French international student here at HKBU, studying social sciences and majoring in Global and China Studies. A few things about me is that I love to travel and love at least as much to eat good food!',
+    extendedMessage: 'Hi! My name is Talilah and I am the DSG of the HKBUMUN :) I am a French international student here at HKBU, studying social sciences and majoring in Global and China Studies. A few things about me is that I love to travel and love at least as much to eat good food!',
     image: '/TM.jpg',
   },
   {
     name: 'Aurèle Mourey',
     position: 'USG Academics',
     message: ' “Those who know, do. Those that understand, teach.” - Aristotle',
-    extendedMessage: 'HI everyone. My name is Aurèle, the Director of Academics for the Academic year 2024-2025 at HKBU MUN. I am always thrilled to discover more about diplomacy and to meet new people! ',
+    extendedMessage: 'HI everyone. My name is Aurèle, the USG Academics for the Academic year 2024-2025 at HKBU MUN. I am always thrilled to discover more about diplomacy and to meet new people! ',
     image: '/AM.jpg',
   },
   {
     name: 'Danil Shishkin',
     position: 'USG Finance & Logistics',
-    message: 'I’m Danil, the Director of Finance and Logistics in HKBU MUN Club',
+    message: 'I’m Danil, USG Finance & Logistics in HKBU MUN',
     extendedMessage: ' My word for the introduction is that this place is not only for prospective politicians, but for everyone interested in learning and growing. HKBU MUN welcomes everyone!',
     image: '/DS.jpg',
   },
@@ -61,14 +61,14 @@ extendedMessage: 'In fact, I created this website as well! 😄 I enjoy cycling,
     name: 'Yanis Benazzouz',
     position: 'USG Digital Media',
     message: 'Always motivated and committed, across the globe and across disciplines !',
-    extendedMessage: "I'm Yanis, Co-Director of Communications and Press at HKBUMUN. I'm a first-year double-degree student between HKBU (in Hong Kong) and Sciences Po Bordeaux (in France). I think this much is enough",
+    extendedMessage: "I'm Yanis, USG Digital Media at HKBUMUN. I'm a first-year double-degree student between HKBU (in Hong Kong) and Sciences Po Bordeaux (in France). I think this much is enough",
     image: '/YB.jpg',
   },
   {
     name: 'Hoi Kit Adrian Mok',
     position: 'USG Delegate Services',
     message: ' I love challenges as they help me to grow and become a better person :) ',
-    extendedMessage: ' Hello everyone! I am Adrian, the Director of Delegate Services for the academic year 2024-2025 at HKBUMUN! If you have any questions regarding the activities of our club, feel free to ask me!',
+    extendedMessage: ' Hello everyone! I am Adrian, USG Delegate at HKBUMUN! If you have any questions regarding the activities of our club, feel free to ask me!',
     image: '/AMM.jpg',
   },
   
@@ -76,7 +76,7 @@ extendedMessage: 'In fact, I created this website as well! 😄 I enjoy cycling,
     name: 'Shin Sum Assumpta Chum',
     position: 'USG Branding and Content',
     message: 'Hey you! Yes you, the one scrolling through the website now! You see those photos on the page? Beautiful, isn"t it?',
-    extendedMessage: 'Those are my work, and you may know me as Assumpta, the Director of Branding and Design for the academic year 2024-2025 at HKBUMUN! Happy to have you here, cheers! ',
+    extendedMessage: 'Those are my work, and you may know me as Assumpta, the USG Branding and Content for the academic year 2024-2025 at HKBUMUN! Happy to have you here, cheers! ',
     image: '/AC.jpg',
   },
   // Add other members with similar structure...
@@ -100,7 +100,7 @@ function about() {
             {[
               { label: "Conferences Organized", counter:"1"},
               { label: "Exco Members", counter:"16" },
-              { label: "Students Impacted", counter:"200" },
+              { label: "Students Impacted", counter:"247" },
             ].map((item, index) => (
               <div
                 key={index}
