@@ -34,7 +34,7 @@ export default function Home() {
                 It is an honor and a privilege that I get to welcome you all to the  
                     <em> Second edition of Hong Kong
                     Baptist University International Model United Nations</em> 
-                    11th to 13th of April, 2025 in Hong Kong, SAR China.
+                    11th to 13th of April, 2025 in Hong Kong SAR, China.
                 </p>
                 <p>
                 My name is Clothilde Mazurier, a second-year student at Hong Kong Baptist University and

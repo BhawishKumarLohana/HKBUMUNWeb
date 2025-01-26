@@ -17,7 +17,7 @@ const excoMembers = [
   {
     name: 'Clothilde Mazurier',
     position: 'Secretary General',
-    message: 'If you ask me to travel the world to do MUN — I’ll certainly say yes !',
+    message: 'If you ask me to travel the world to do MUN — I’ll certainly say yes!',
     extendedMessage: 'A Real Mun-oholic, I could participate in countless conferences with my friends and still have the same unflagging enthusiasm.',
     image: '/CM.jpg',
   },
