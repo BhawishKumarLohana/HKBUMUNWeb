@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -27,6 +27,14 @@ const Footer = () => {
           >
             <FaLinkedin size={24} />
           </a>
+          <a
+          href="mailto:hkbumunclub@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-300 hover:text-white transition"
+        >
+          <FaEnvelope size={24} />
+        </a>
         </div>
       </div>
     </footer>
