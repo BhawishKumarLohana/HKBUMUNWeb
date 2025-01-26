@@ -15,10 +15,9 @@ The HKBU MUN website is designed to:
 
 We are utilizing the following technologies for our website:
 
-- **Next.js** (Version: [insert version here])
+- **Next.js** 
 - **TailwindCSS**
-- **App Router**
-- **ESLint**
+
 
 Currently, we do not require a database, but our architecture is designed to support the addition of any SQL/NoSQL database, with MongoDB being the most optimal choice.
 
