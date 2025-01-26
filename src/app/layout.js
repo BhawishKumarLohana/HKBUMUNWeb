@@ -4,7 +4,7 @@ import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
 export const metadata = {
   title: "HKBUMUN",
-  description: "Together We Go",
+  description: "Together We Go Far",
 };
 
 export default function RootLayout({ children }) {
