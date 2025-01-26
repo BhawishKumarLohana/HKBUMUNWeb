@@ -1,15 +1,13 @@
 # HKBU MUN Website
+The HKBUMUN conference website serves as a centralized platform to enhance the conference's online presence, making it accessible for delegates, sponsors, and partners worldwide.
 
-Welcome to the HKBU MUN website! This platform serves as a hub for showcasing the HKBU MUN Conference, reflecting the professionalism and aspirations of our community. Here, you'll find easy access to information and resources related to our events and initiatives.
+# Purpose
 
-## Purpose
 
-The HKBU MUN website is designed to:
-
-- **Enhance Online Presence**: A centralized platform to improve visibility for the club, making it easier for potential members and partners to discover and learn about the conference.
-- **Showcase Achievements**: Highlight the club's accomplishments, events, and mission to a broader audience, including students, sponsors, and international MUN organizations.
-- **Promote Upcoming Events**: Dedicated pages for conferences, workshops, and other activities to facilitate event promotion.
-- **Resource Repository**: Act as a repository for MUN resources, guides, and updates to attract new members and retain current ones.
+- Highlights the conference's achievements, committees, and mission, reaching a global audience of students, educators, and MUN enthusiasts.
+- Promotes upcoming events like conferences, workshops, and activities with dedicated, visually engaging pages.
+- Acts as a hub for essential MUN resources, guides, and updates to empower participants and enhance their preparation.
+- Strengthens outreach efforts, fostering connections with international delegates and building lasting partnerships.
 
 ## Tech Stack
 
