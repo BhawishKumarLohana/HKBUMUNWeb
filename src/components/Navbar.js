@@ -30,7 +30,7 @@ function Navbar() {
                             fontFamily: '"Playfair Display", serif',
                         }}
                         >
-                        Together We Go
+                        Together We Go Far
                         </span>
                     </div>
                 </div>
