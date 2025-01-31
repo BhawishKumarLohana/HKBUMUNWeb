@@ -61,7 +61,7 @@ extendedMessage: 'In fact, I created this website as well! 😄 I enjoy cycling,
     name: 'Yanis Benazzouz',
     position: 'USG Digital Media',
     message: 'Always motivated and committed, across the globe and across disciplines !',
-    extendedMessage: "I'm Yanis, USG Digital Media at HKBUMUN. I'm a first-year double-degree student between HKBU (in Hong Kong) and Sciences Po Bordeaux (in France). I think this much is enough",
+    extendedMessage: "I'm Yanis, USG Digital Media at HKBUMUN. I'm a first-year double-degree student between HKBU (in Hong Kong) and Sciences Po Bordeaux (in France).",
     image: '/YB.jpg',
   },
   {
