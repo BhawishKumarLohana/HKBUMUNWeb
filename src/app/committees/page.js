@@ -8,35 +8,35 @@ const committeesData = [
         logo: '/UNSC.png', // Replace with your logo path
         description: 'Addresses global peace, security challenges, and crisis management through diplomatic solutions.',
         backgroundImage:'/UNSC_Cover.JPG',
-        link:"https://drive.google.com/file/d/1XV5_4RvO25MMSHEFuUtf5ud2W3ynkO9h/view?usp=sharing"
+        link:"https://drive.google.com/file/d/1BvJ4k_boOhSDT7xdBUs9_YlhRO7CwoSG/view?usp=sharing"
     },
     {
         name: 'United Nations Industrial Development Organization',
         logo: '/UNIDO.png', // Replace with your logo path
         description: 'Promotes inclusive and sustainable industrial development to foster economic growth and innovation.',
         backgroundImage:'/UNIDO_Cover.JPG',
-        link:'https://drive.google.com/file/d/1XV5_4RvO25MMSHEFuUtf5ud2W3ynkO9h/view?usp=sharing'
+        link:'https://drive.google.com/file/d/1igehIq5ZixqFCJFW40N_ppWuBTZUpkQn/view?usp=sharing'
     },
     {
         name: 'United Nations Permanent Forum on Indigenous Issues',
         logo: '/UNPFII.png', // Replace with your logo path
         description: 'Focuses on addressing indigenous peoples’ rights, culture, and sustainable development.',
         backgroundImage:'/UNFII_Cover.jpg',
-        link:'https://drive.google.com/file/d/1XV5_4RvO25MMSHEFuUtf5ud2W3ynkO9h/view?usp=sharing'
+        link:'https://drive.google.com/file/d/1_NNE7Spxyz9nXSpcZxUt1Qxx3_IhPicb/view?usp=sharing'
     },
     {
         name: 'Association of the Southeast Asian Nations',
         logo: '/ASEAN.png', // Replace with your logo path
         description: 'Promotes regional stability, economic growth, and cultural exchange among Southeast Asian nations.',
         backgroundImage:'/ASEAN_Cover.JPG',
-        link:'https://drive.google.com/file/d/1XV5_4RvO25MMSHEFuUtf5ud2W3ynkO9h/view?usp=sharing'
+        link:'https://drive.google.com/file/d/1gpfRxuFzi5yipu9jD_kk95nR7Zzy2REA/view?usp=sharing'
     },
     {
         name: 'Council of the European Union',
         logo: '/EUC.png', // Replace with your logo path
         description: 'Focuses on coordinating policies and decisions among European Union member states.',
         backgroundImage:'/EUC_Cover.JPG',
-        link:'https://drive.google.com/file/d/1XV5_4RvO25MMSHEFuUtf5ud2W3ynkO9h/view?usp=sharing'
+        link:'https://drive.google.com/file/d/1eqNru32x1v5nebRyiqCvIn0ytxeJI39s/view?usp=sharing'
     },
     // Add more committees as needed
 ];

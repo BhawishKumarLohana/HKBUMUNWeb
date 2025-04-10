@@ -62,6 +62,15 @@ function Navbar() {
                     >
                         Resources
                     </a>
+                    <a
+                        href="/Schedule"
+                        style={{ color: "#f9e243",
+                                
+                         }}
+                        className="hover:text-[#ffffff] transition-colors duration-300 text-xl font-bold"
+                    >
+                        Schedule
+                    </a>
                     
                     
                 </div>
@@ -142,6 +151,13 @@ function Navbar() {
                             className="hover:text-[#ffffff] transition-colors duration-300 text-2xl font-bold"
                         >
                             Resources
+                        </a>
+                        <a
+                            href="/Schedule"
+                            style={{ color: "#f9e243" }}
+                            className="hover:text-[#ffffff] transition-colors duration-300 text-2xl font-bold"
+                        >
+                            Schedule
                         </a>
                         
                     </div>
